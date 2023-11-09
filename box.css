@@ -1,0 +1,77 @@
+body {
+  display: grid;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #05f7f7;
+}
+
+nav a:focus {
+    background-color: red;
+    outline: 2px solid #2bff00e1;
+    
+}
+
+.card {
+    display: grid;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 300px;
+    height: 350px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  .price {
+    color: rgb(225, 101, 101);
+    font-size: 22px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #38042b;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    /* opacity: 0.7; */
+    background-color: rgb(225, 255, 0);
+    color: rgb(255, 0, 0);
+  }
+  .card button:focus {
+    opacity: 0.7;
+    color: rgb(0, 255, 47);
+    background-color: rgb(148, 0, 0)
+  }
